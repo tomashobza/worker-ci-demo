@@ -1,0 +1,19 @@
+bun.lock
+  s_0a2d9c7d9021bc::t_13ca13ce8fdd2c 1-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "01d7138b0e67c9d6063012e3b3002c122e71367b",
+  "prompts": {},
+  "sessions": {
+    "s_0a2d9c7d9021bc": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_079a1bcbeffe7z0b9Ko4rE4ng9",
+        "model": "gpt-5.6"
+      },
+      "human_author": "Tomas Hobza <thobza@cloudflare.com>"
+    }
+  }
+}
