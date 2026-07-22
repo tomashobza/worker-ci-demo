@@ -1,0 +1,27 @@
+README.md
+  s_85fd1a57a94958::t_f78d472c826ce4 3
+src/build.ts
+  s_85fd1a57a94958::t_cf02bacbc24ba0 1-33
+src/index.ts
+  s_85fd1a57a94958::t_11203354b6145d 1-4,7-30,32-37
+test/index.test.ts
+  s_85fd1a57a94958::t_02d3265701cbf0 2,4-10,13-22
+package.json
+  s_85fd1a57a94958::t_26f37c0203832e 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d19172fe7f81e10932605dedc3f20f1cbe5741ce",
+  "prompts": {},
+  "sessions": {
+    "s_85fd1a57a94958": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0767f21c8ffe51TX6wN7gwiG3r",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Tomas Hobza <thobza@cloudflare.com>"
+    }
+  }
+}
