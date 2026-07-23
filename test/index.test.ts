@@ -1,24 +1,18 @@
-import { describe, expect, test } from 'bun:test';
-import { page, renderPage } from '../src';
+import { describe, expect, test } from 'vitest';
+import { handleRequest } from '../src';
 
-describe('renderPage', () => {
-  test('produces a full HTML document', () => {
-    const html = renderPage(page);
-    expect(html).toContain('<!DOCTYPE html>');
-    expect(html).toContain(`<title>${page.title}</title>`);
-    expect(html).toContain(`<h1>${page.heading}</h1>`);
-    expect(html).toContain(page.body);
+describe('handleRequest', () => {
+  test('greets the world by default', async () => {
+    const response = handleRequest(new Request('https://example.com'));
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get('content-type')).toBe('text/plain; charset=utf-8');
+    await expect(response.text()).resolves.toBe('Hello, world!');
   });
 
-  test('escapes HTML in content', () => {
-    const html = renderPage({
-      title: 'a & b',
-      heading: '<script>',
-      body: '"quoted"',
-    });
-    expect(html).toContain('a &amp; b');
-    expect(html).toContain('&lt;script&gt;');
-    expect(html).toContain('&quot;quoted&quot;');
-    expect(html).not.toContain('<script>');
+  test('greets the requested name', async () => {
+    const response = handleRequest(new Request('https://example.com?name=Cloudflare'));
+
+    await expect(response.text()).resolves.toBe('Hello, Cloudflare!');
   });
 });
