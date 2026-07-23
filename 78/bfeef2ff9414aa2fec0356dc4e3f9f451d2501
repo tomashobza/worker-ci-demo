@@ -1,0 +1,39 @@
+worker-configuration.d.ts
+  s_24092ec0ecaa67::t_dfb44b3abc2e96 1-14706
+test/index.test.ts
+  s_24092ec0ecaa67::t_640c6693d85d9b 1-2,4-10,13-16
+README.md
+  s_24092ec0ecaa67::t_640c6693d85d9b 3-17,21-22,25-32
+wrangler.jsonc
+  s_24092ec0ecaa67::t_640c6693d85d9b 1-10
+src/index.ts
+  s_24092ec0ecaa67::t_640c6693d85d9b 1-2,4-6,9-11
+tsconfig.json
+  s_24092ec0ecaa67::t_640c6693d85d9b 2,4-6,8,11,13
+package.json
+  s_24092ec0ecaa67::t_640c6693d85d9b 7-10,12-13,16-19
+  s_24092ec0ecaa67::t_fadaddf1e64e54 11
+.gitignore
+  s_24092ec0ecaa67::t_640c6693d85d9b 3,5-6
+  s_24092ec0ecaa67::t_86404200891d11 4
+vitest.config.ts
+  s_24092ec0ecaa67::t_701ce3bd28636b 1-7
+bun.lock
+  s_24092ec0ecaa67::t_e9c309e4a7f739 9-11,16-149,188-230,232,234-352,356-414
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "78bfeef2ff9414aa2fec0356dc4e3f9f451d2501",
+  "prompts": {},
+  "sessions": {
+    "s_24092ec0ecaa67": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_07396f568ffe4QBPzccIm2RFqP",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Tomáš Hobza <thobza@cloudflare.com>"
+    }
+  }
+}
