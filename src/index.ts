@@ -1,5 +1,5 @@
 export function handleRequest(request: Request): Response {
-  const name = new URL(request.url).searchParams.get('name') ?? 'world';
+  const name = new URL(request.url).searchParams.get('param') ?? 'world';
 
   return new Response(`Hello, ${name}!`, {
     headers: { 'content-type': 'text/plain; charset=utf-8' },
