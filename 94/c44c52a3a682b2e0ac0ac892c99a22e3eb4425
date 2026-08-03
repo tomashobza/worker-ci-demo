@@ -1,0 +1,19 @@
+src/index.ts
+  s_bbebda347f0705::t_009c38c4292747 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "94c44c52a3a682b2e0ac0ac892c99a22e3eb4425",
+  "prompts": {},
+  "sessions": {
+    "s_bbebda347f0705": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_036e7a02bffe3QKA5h9YnNhgLT",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Tomas Hobza <thobza@cloudflare.com>"
+    }
+  }
+}
