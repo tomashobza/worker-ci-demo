@@ -25,6 +25,14 @@ npm run build
 
 `build` performs a Wrangler dry run without deploying anything.
 
+## Cloudflare GitHub CI PoC
+
+[`cloudflare-ci/`](./cloudflare-ci/) contains the signed-webhook Worker and
+Workflow from Cloudflare's GitHub CI example. It is restricted to
+`tomashobza/worker-ci-demo` and runs `npm ci`, lint, tests, typechecking, build,
+and deployment for each push. See its [runbook](./cloudflare-ci/AGENTS.md) for
+resource and secret setup.
+
 ## Deployment
 
 ```sh

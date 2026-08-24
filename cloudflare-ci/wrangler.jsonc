@@ -1,0 +1,54 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "github-ci-demo-ci-cd-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-16",
+  "compatibility_flags": ["nodejs_compat"],
+  "containers": [
+    {
+      "class_name": "CiSandbox",
+      "image": "./Dockerfile",
+      "max_instances": 10,
+      "instance_type": "standard-4",
+    },
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "SANDBOX",
+        "class_name": "CiSandbox",
+      },
+    ],
+  },
+  "workflows": [
+    {
+      "name": "github-ci-demo-ci-workflow",
+      "binding": "CI_WORKFLOW",
+      "class_name": "CI",
+    },
+  ],
+  "exports": {
+    "CiSandbox": {
+      "type": "durable-object",
+      "storage": "sqlite",
+    },
+  },
+  "r2_buckets": [
+    {
+      "binding": "BACKUP_BUCKET",
+      "bucket_name": "github-ci-demo-ci-cd-worker-backups",
+    },
+  ],
+
+  "vars": {
+    "BACKUP_BUCKET_NAME": "github-ci-demo-ci-cd-worker-backups",
+    "CLOUDFLARE_ACCOUNT_ID": "da2258e4793f3eeaa61774606f630cb7",
+    "CLOUDFLARE_DEPLOY_ACCOUNT_ID": "da2258e4793f3eeaa61774606f630cb7",
+  },
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+    },
+  },
+}
