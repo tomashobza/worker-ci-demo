@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "github-ci-demo-ci-cd-worker",
+  "account_id": "8c27781009621cb0d142d841bd33a911",
   "main": "src/index.ts",
   "compatibility_date": "2026-06-16",
   "compatibility_flags": ["nodejs_compat"],
@@ -42,8 +43,8 @@
 
   "vars": {
     "BACKUP_BUCKET_NAME": "github-ci-demo-ci-cd-worker-backups",
-    "CLOUDFLARE_ACCOUNT_ID": "da2258e4793f3eeaa61774606f630cb7",
-    "CLOUDFLARE_DEPLOY_ACCOUNT_ID": "8e8faa9979d450087e3fbcd4806f7c26",
+    "CLOUDFLARE_ACCOUNT_ID": "8c27781009621cb0d142d841bd33a911",
+    "CLOUDFLARE_DEPLOY_ACCOUNT_ID": "8c27781009621cb0d142d841bd33a911",
   },
   "observability": {
     "enabled": true,
