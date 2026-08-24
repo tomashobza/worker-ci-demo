@@ -1,0 +1,40 @@
+package.json
+  s_82028480d429e0::t_c4d9769443da5a 21-22
+  s_82028480d429e0::t_1db48d1ed3801c 25
+  s_82028480d429e0::t_42da9de8966d7a 23-24
+src/index.ts
+  s_1ca45ffa65f056::t_2950359b8b1e78 2
+worker-configuration.d.ts
+  s_82028480d429e0::t_509395977ad291 3
+README.md
+  s_82028480d429e0::t_0a726cf23a72c1 13-14
+  s_82028480d429e0::t_6a414e9b0f70f8 3
+  s_82028480d429e0::t_4669e92879ec04 31
+  s_82028480d429e0::t_a389d5be6aaf28 20-23
+package-lock.json
+  s_82028480d429e0::t_ab267392ea12d8 1-3509
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4749364821562de05daff223432f39c11ebf71f2",
+  "prompts": {},
+  "sessions": {
+    "s_1ca45ffa65f056": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a02683-a44a-74eb-9e00-fa150cb8022d",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tomáš Hobza <thobza@cloudflare.com>"
+    },
+    "s_82028480d429e0": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_02cffcfb4ffeOWDYiup3WHw6GC",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Tomáš Hobza <thobza@cloudflare.com>"
+    }
+  }
+}
