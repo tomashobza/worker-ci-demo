@@ -1,0 +1,55 @@
+cloudflare-ci/AGENTS.md
+  s_030ad87a1ff22a::t_43554908382c16 1-151
+cloudflare-ci/Dockerfile
+  s_030ad87a1ff22a::t_43554908382c16 1
+cloudflare-ci/env.ts
+  s_030ad87a1ff22a::t_43554908382c16 1-12
+cloudflare-ci/worker-configuration.d.ts
+  s_030ad87a1ff22a::t_0f8470e8d17c81 2,6-7,23
+  s_030ad87a1ff22a::t_43554908382c16 1,3-5,8-22,24
+cloudflare-ci/package.json
+  s_030ad87a1ff22a::t_43554908382c16 1-9,11-55
+  s_030ad87a1ff22a::t_84172244557ab3 10
+cloudflare-ci/src/index.test.ts
+  s_030ad87a1ff22a::t_51c225bbbe721b 33-34,47,54,60-61
+  s_030ad87a1ff22a::t_43554908382c16 1-32,35-46,48-53,55-59,62-144
+cloudflare-ci/vitest.config.ts
+  s_030ad87a1ff22a::t_de396b7c9aebf0 1-7
+cloudflare-ci/src/index.ts
+  s_030ad87a1ff22a::t_43554908382c16 1-48
+cloudflare-ci/tsconfig.json
+  s_030ad87a1ff22a::t_43554908382c16 1-21
+cloudflare-ci/cloudflare.ci.ts
+  s_030ad87a1ff22a::t_43554908382c16 1-5,11-43
+  s_030ad87a1ff22a::t_2ea9ed3e5055bf 6-10
+cloudflare-ci/wrangler.jsonc
+  s_030ad87a1ff22a::t_766911c42bf8d1 45-46
+  s_030ad87a1ff22a::t_43554908382c16 1-2,4-24,26-38,40-43,47-54
+  s_030ad87a1ff22a::t_7af8b33c799025 3,25,39,44
+README.md
+  s_030ad87a1ff22a::t_4fac4ff6814b8d 28-35
+cloudflare-ci/README.md
+  s_030ad87a1ff22a::t_43554908382c16 1-92
+.gitignore
+  s_030ad87a1ff22a::t_c379cbb5c1afe9 3
+cloudflare-ci/.dev.vars.example
+  s_030ad87a1ff22a::t_2a20a70cc20f77 1-6
+cloudflare-ci/pnpm-lock.yaml
+  s_030ad87a1ff22a::t_879c25b38b4f3f 1-1539
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "c46fbe37e3708740db57e0c0ce350475e9b1c97f",
+  "prompts": {},
+  "sessions": {
+    "s_030ad87a1ff22a": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0338d-d665-7acf-a6e1-e6f3b559ca1b",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tomáš Hobza <thobza@cloudflare.com>"
+    }
+  }
+}
