@@ -1,6 +1,6 @@
 # CI Workflows Demo
 
-A minimal TypeScript Cloudflare Worker. Bun manages dependencies and runs the
+A minimal TypeScript Cloudflare Worker. npm manages dependencies and runs the
 development scripts; Wrangler runs the Worker locally and deploys it to
 Cloudflare.
 
@@ -10,17 +10,17 @@ customize the response, for example `/?name=Cloudflare`.
 ## Development
 
 ```sh
-bun install
-bun run dev
+npm install
+npm run dev
 ```
 
 ## Checks
 
 ```sh
-bun run lint
-bun run test
-bun run typecheck
-bun run build
+npm run lint
+npm run test
+npm run typecheck
+npm run build
 ```
 
 `build` performs a Wrangler dry run without deploying anything.
@@ -28,5 +28,5 @@ bun run build
 ## Deployment
 
 ```sh
-bun run deploy
+npm run deploy
 ```
