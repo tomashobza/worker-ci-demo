@@ -44,7 +44,7 @@
   "vars": {
     "BACKUP_BUCKET_NAME": "github-ci-demo-ci-cd-worker-backups",
     "CLOUDFLARE_ACCOUNT_ID": "8c27781009621cb0d142d841bd33a911",
-    "CLOUDFLARE_DEPLOY_ACCOUNT_ID": "8c27781009621cb0d142d841bd33a911",
+    "CLOUDFLARE_DEPLOY_ACCOUNT_ID": "8e8faa9979d450087e3fbcd4806f7c26",
   },
   "observability": {
     "enabled": true,
