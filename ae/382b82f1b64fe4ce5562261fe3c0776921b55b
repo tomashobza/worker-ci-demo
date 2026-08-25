@@ -1,0 +1,19 @@
+cloudflare-ci/wrangler.jsonc
+  s_b0c3155a6341be::t_29194c943c0e3b 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ae382b82f1b64fe4ce5562261fe3c0776921b55b",
+  "prompts": {},
+  "sessions": {
+    "s_b0c3155a6341be": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a03403-8a34-7a29-8c95-cb7b0c65ffe7",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Tomáš Hobza <thobza@cloudflare.com>"
+    }
+  }
+}
